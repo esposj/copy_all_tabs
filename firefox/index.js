@@ -61,7 +61,7 @@ function copy_tabs(selection) {
   }
 
   for (let tab of tab_list) {
-    tab_text += tab.url + '\n';
+   // tab_text += tab.url + '\n';
     tab_text += tab.title + '\n';
   }    
   
